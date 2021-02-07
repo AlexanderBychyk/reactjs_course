@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-export class Component3 extends React.PureComponent{
+export default class Component3 extends PureComponent {
   render(){
-    return(
-    <h1>Hello World from "React.PureComponent"</h1>
-    )
+    return(<h1>Hello World from &quot;PureComponent&quot;</h1>)
   }
 }
