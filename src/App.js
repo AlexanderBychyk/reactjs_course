@@ -12,7 +12,6 @@ function App() {
       <Component2 />
       <Component3 />
       <Component4 />
-      <h1>Hello World from &quot;Functional Component&quot;</h1>
     </div>
   );
 }
